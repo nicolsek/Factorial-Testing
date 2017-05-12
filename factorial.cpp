@@ -16,7 +16,7 @@ unsigned int factorial(unsigned int n) {
 // printFactorial ... Output to std the factorial of n digits.
 void printFactorial(unsigned int n) {
 	//For loop for printing and doing the factorial stuff.
-	for (int i = 1; i < n; i++) {
+	for (int i = 1; i <= n; i++) {
 		std::cout << factorial(i) << std::endl;
 	}
 }
